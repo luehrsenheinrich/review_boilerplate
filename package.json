@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "title": "Theme Review Boilerplate",
+  "slug": "theme_review_boilerplate",
+  "private": true,
+  "devDependencies": {
+  },
+  "scripts": {
+    "setup": "sh bin/setup-local-env.sh",
+    "remove": "docker-compose down --volumes --remove-orphans"
+  }
+}
